@@ -1,0 +1,95 @@
+body{
+    display: block;
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1rem;
+    line-height: 1.5;
+    height: 100%;
+}
+#header{
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.9);
+    height: 3rem;
+    box-shadow: 0 0 0.15em 0 rgba(0, 0, 0, 0.2);
+}
+#logo{
+    position: absolute;
+    left: 1em;
+    top: 0;
+    height: 3em;
+    line-height: 3em;
+}
+#navbar{
+    position: absolute;
+    right: 0.5em;
+    top: 0;
+    height: 3em;
+}
+#navbar>li{
+    display: inline-block;
+    margin-left: 0.9em;
+}
+#intro, #one, #two {
+    position: relative;
+    margin: 0;
+    overflow-x: hidden;
+    top: 3rem;
+    height: 30rem;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 10em 0 10em 0;
+}
+#hey{
+    font-size: 3rem;
+}
+#intro{
+    color: #fff;
+    background: url(/images/overlay.png), url(/images/intro.jpg);
+    background-size: 256px 256px, cover;
+    background-attachment: fixed, fixed;
+    background-position: top left, bottom center;
+    background-repeat: repeat, no-repeat;
+}
+#one{
+    background: url(/images/one.jpg) no-repeat fixed;
+}
+#one>div, #two>div{
+    padding: 10px;
+    background: rgba(255, 255, 255);
+    box-shadow: 0 0 0.15em 0 rgba(0, 0, 0, 0.3);
+}
+#two{
+    background: url(/images/two.jpg) no-repeat fixed ;
+}
+#work{
+    display: block;
+    background: #fff;
+}
+#contact{
+    display: flex;
+    position: relative;
+    margin: 0;
+    background: #eee ;
+    padding: 3em 0 3em 0;
+    overflow: hidden;
+}
+.main > .content {
+    width: 45em;
+    max-width: calc(100% - 4em);
+    margin: 0 auto;
+}
+.box{
+    background: #fff;
+    color: #39454b;
+}
+form > .fields{
+    flex-wrap: wrap;
+    width: calc(100% + 3em);
+    margin: -1.5em 0 2em -1.5em;
+}
+

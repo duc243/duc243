@@ -8,59 +8,138 @@
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <main>
-            <header>
-                <a href=""><img src="images/logo-ken.png" alt="Logo de Exousia KASEKA" id="logo"></a>
-                <nav class="navbar">
-                    <ul>
-                        <li>Intro</li>
-                        <li>What I do</li>
-                        <li>What I am</li>
-                        <li>My Work</li>
-                        <li>Contact</li>
-                    </ul>
-                </nav>
-            </header>
-            <article class="grand-angle">
-                <section class="petit-angle">
-                    <h1 class="title">Hey.</h1>
-                    <p class="descript">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione amet at ex corrupti pariatur laudantium magni sequi ipsum quis quisquam odio nihil dignissimos eos officia autem, magnam ab rem repellendus?</p>
-                </section>
-            </article>
-            <article class="grand-angle">
-                <section class="petit-angle">
-                    <h1 class="title">What I do</h1>
-                    <p class="descript">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos corporis laudantium odio at laborum accusamus quidem quaerat tenetur rem quae minus illum excepturi, doloremque delectus molestiae aliquid debitis eum! Nemo?
-                    At, eos delectus saepe maiores velit voluptate similique, ullam fugit dolore natus nulla consequatur, mollitia necessitatibus. Magni odit sapiente, harum inventore fugiat recusandae culpa nisi, rem optio, voluptates quasi distinctio.</p>
-                </section>
-            </article>
-            <article class="grand-angle">
-                <section class="petit-angle">
-                    <h1 class="title">What I am</h1>
-                    <p class="descript">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Totam, ad iure id officiis repudiandae, similique alias ducimus est dolore tempore ab non? Nostrum ducimus facere quia ad, reprehenderit labore laboriosam?
-                    In illum quod quaerat maiores assumenda vel molestiae sapiente harum dignissimos laudantium esse nulla aliquid, ea perspiciatis ex dolorem itaque, asperiores ullam enim, quae saepe ipsum nesciunt earum! Atque, magnam.</p>
-                </section>
-            </article>
-            <article class="grand-angle">
-                <section class="petit-angle">
-                    <h1 class="title">My Work</h1>
-                    <p class="descript">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente, maxime quaerat placeat eum tempore, consectetur incidunt nam quo exercitationem rerum eveniet quibusdam ipsam voluptas distinctio, minima expedita ad. Eos, consequuntur.</p>
-                    <figure>
-                        <img src="" alt="">
-                        <img src="" alt="">
-                        <img src="" alt="">
-                        <img src="" alt="">
-                        <img src="" alt="">
-                        <img src="" alt="">
-                    </figure>
-                </section>
-            </article>
-            <article class="grand-angle">
-                <section class="petit-angle">
-                    <h1 class="title">Say Hello</h1>
-                    <p class="descript">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus odit cum nam, quisquam eius repudiandae vel, molestiae atque possimus dolorum asperiores ipsa maiores neque debitis dignissimos repellat consectetur veritatis culpa?</p>
-                </section>
-            </article>
-        </main>
+        <!-- Header -->
+        <header id="header">
+            <a href="#"><img src="/images/logo-ken.png" alt="Logo de Exousia KASEKA" id="logo"></a>
+            <nav>
+                <ul id="navbar">
+                    <li><a href="#intro">Intro</a></li>
+                    <li><a href="#one">What I Do</a></li>
+                    <li><a href="#two">Who I Am</a></li>
+                    <li><a href="#work">My Work</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <!-- Intro -->
+        <section id="intro">
+            <div class="content">
+                <header>
+                    <h2 id="hey">Hey.</h2>
+                </header>
+                <p>Welcome to <strong>Big Picture</strong> a responsive site template designed by <a href="https://html5up.net">HTML5 UP</a><br>
+                and released for free under the <a href="https://html5up.net/license">Creative Commons Attribution license</a>.</p>
+                <footer>
+                    <a href="#one" >
+                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="36px" height="36px" viewBox="0 0 36 36" zoomAndPan="disable" preserveAspectRatio="none">
+                            <style type="text/css"><![CDATA[ line { stroke: #fff; stroke-width: 1; } ]]></style>
+                            <line x1="0" y1="18" x2="18" y2="36" />
+                            <line x1="36" y1="18" x2="18" y2="36" />
+                            <line x1="18" y1="36" x2="18" y2="0" />
+                        </svg>
+                    </a>
+                </footer>
+            </div>
+        </section>
+        <!-- One -->
+        <section id="one" >
+            <div class="content box style2">
+                <header>
+                    <h2>What I Do</h2>
+                </header>
+                <p>Lorem ipsum dolor sit amet et sapien sed elementum egestas dolore condimentum.
+                Fusce blandit ultrices sapien, in accumsan orci rhoncus eu. Sed sodales venenatis arcu,
+                id varius justo euismod in. Curabitur egestas consectetur magna.</p>
+            </div>
+            <a href="#two" >Next
+
+            </a>
+        </section>
+        <!-- Two -->
+        <section id="two" class="main style2 left dark fullscreen inactive">
+            <div class="content box style2">
+                <header>
+                    <h2>Who I Am</h2>
+                </header>
+                <p>Lorem ipsum dolor sit amet et sapien sed elementum egestas dolore condimentum.
+                Fusce blandit ultrices sapien, in accumsan orci rhoncus eu. Sed sodales venenatis arcu,
+                id varius justo euismod in. Curabitur egestas consectetur magna.</p>
+            </div>
+            <a href="#work" class="button style2 down anchored">Next</a>
+        </section>
+        <!-- Work -->
+        <section id="work" class="main style3 primary">
+            <div class="content">
+                <header>
+                    <h2>My Work</h2>
+                    <p>Lorem ipsum dolor sit amet et sapien sed elementum egestas dolore condimentum.
+                    Fusce blandit ultrices sapien, in accumsan orci rhoncus eu. Sed sodales venenatis
+                    arcu, id varius justo euismod in. Curabitur egestas consectetur magna vitae.</p>
+                </header>
+
+                <!-- Gallery  -->
+                    <div class="gallery inactive">
+                        <article class="from-left">
+                            <a class="image fit" style="cursor: pointer; outline: 0px;"><img src="images/thumbs/01.jpg" alt=""></a>
+                        </article>
+                        <article class="from-right">
+                            <a class="image fit" style="cursor: pointer; outline: 0px;"><img src="images/thumbs/02.jpg" alt=""></a>
+                        </article>
+                        <article class="from-left">
+                            <a class="image fit" style="cursor: pointer; outline: 0px;"><img src="images/thumbs/03.jpg" alt=""></a>
+                        </article>
+                        <article class="from-right">
+                            <a class="image fit" style="cursor: pointer; outline: 0px;"><img src="images/thumbs/04.jpg" alt=""></a>
+                        </article>
+                        <article class="from-left">
+                            <a class="image fit" style="cursor: pointer; outline: 0px;"><img src="images/thumbs/05.jpg" alt=""></a>
+                        </article>
+                        <article class="from-right">
+                            <a class="image fit" style="cursor: pointer; outline: 0px;"><img src="images/thumbs/06.jpg" alt=""></a>
+                        </article>
+                    </div>
+
+            </div>
+        </section>
+        <!-- Contact -->
+        <section id="contact" class="main style3 secondary">
+            <div class="content">
+                <header>
+                    <h2>Say Hello.</h2>
+                    <p>Lorem ipsum dolor sit amet et sapien sed elementum egestas dolore condimentum.</p>
+                </header>
+                <div class="box">
+                    <form method="post" action="#">
+                        <div class="fields">
+                            <div class="field half"><input type="text" name="name" placeholder="Name"></div>
+                            <div class="field half"><input type="email" name="email" placeholder="Email"></div>
+                            <div class="field"><textarea name="message" placeholder="Message" rows="6"></textarea></div>
+                        </div>
+                        <ul class="actions special">
+                            <li><input type="submit" value="Send Message"></li>
+                        </ul>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <!-- Footer -->
+        <footer id="footer">
+
+            <!-- Icons -->
+                <ul class="icons">
+                    <li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+                    <li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+                    <li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+                    <li><a href="#" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+                    <li><a href="#" class="icon brands fa-dribbble"><span class="label">Dribbble</span></a></li>
+                    <li><a href="#" class="icon brands fa-pinterest"><span class="label">Pinterest</span></a></li>
+                </ul>
+
+            <!-- Menu -->
+                <ul class="menu">
+                    <li>© Untitled</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li><li>Demo Images: <a href="http://ineedchemicalx.deviantart.com/">Felicia Simion</a> + <a href="http://md.photomerchant.net/">Michael Domaradzki</a></li>
+                </ul>
+
+        </footer>
     </body>
 </html>
