@@ -39,7 +39,7 @@ body{
     /*box-shadow: 0 0 0.15em 0 rgba(255, 255, 255, 0.9);*/
     
 }
-#intro, #one, #two, #work {
+#intro, .one, .two, #work {
     position: relative;
     top: 3rem;
     align-items: center;
@@ -51,43 +51,52 @@ body{
 }
 #intro{
     color: #fff;
-    height: 20rem;
+    height: 25rem;
     padding: 10em;
-    background: url(/images/overlay.png), url(/images/intro.jpg);
+    background: url(./images/overlay.png), url(./images/intro.jpg);
     background-size: 256px 256px, cover;
     background-attachment: fixed, fixed;
     background-position: top left, bottom center;
     background-repeat: repeat, no-repeat;
 }
-#btn-down{
+a.btn-down{
     display: inline-block;
-    padding: 12px;
     background: rgba(57, 69, 75, 0.25);
-    border-radius: 20em;
+    border-radius: 1em;
+    border: #fff6 solid;
 }
-#btn-down:hover{
+.btn-down:hover{
     background: rgba(57, 69, 75, 0.5);
 }
+.btn-down.primo{
+    padding: 12px;
+}
+.btn-down.second{
+    padding: 20px;
+    margin-top: 50%;
+    
+}
 #one{
-    background: url(/images/one.jpg) no-repeat fixed;
+    background: url(./images/one.jpg) no-repeat fixed;
 }
 #two{
-    background: url(/images/two.jpg) no-repeat fixed;
+    background: url(./images/two.jpg) no-repeat fixed;
 }
 #one, #two{
-    padding: 18em 20%;
+    padding: 14em 20%;
 }
 #one>div, #two>div{
     padding: 10px;
     background: rgb(255, 255, 255);
 }
 #one>div:hover, #two>div:hover{
-    background: rgb(222, 222, 226);
-    /*box-shadow: 5px 5px 2px 1px #d4dadd7a;*/
+    /*background: rgb(222, 222, 226);*/
+    box-shadow: 1px 1px 15px 15px #d4dadd7a;
 }
-#work{
-    display: block;
-    background: #fff;
+.gallery{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    
 }
 #contact{
     display: flex;
