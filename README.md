@@ -4,8 +4,8 @@
 
 
 [![Twitter/X](https://skillicons.dev/icons?i=twitter)](https://twitter.com/ekeey_8) &nbsp;
-[![LinkedIn](https://skillicons.dev/icons?i=linkedin)](https://www.linkedin.com/in/exousiakaseka/) &nbsp;
-[![Gmail](https://skillicons.dev/icons?i=gmail)](mailto:kasekaexousia@gmail.com?subject=Hello%20Jasper,%20From%20Github)
+[![Gmail](https://skillicons.dev/icons?i=gmail)](mailto:kasekaexousia@gmail.com?subject=Hello%20Jasper,%20From%20Github) &nbsp;
+[![LinkedIn](https://skillicons.dev/icons?i=linkedin)](https://www.linkedin.com/in/exousiakaseka/) 
 
 </div>
 
