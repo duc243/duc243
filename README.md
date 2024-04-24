@@ -1,6 +1,6 @@
 <div align="center">
 
-[![Hello World, I'm Exousia!](as/code.gif)](https://github.com/duc243)
+<a href="https://app.daily.dev/duc243"><img src="https://api.daily.dev/devcards/v2/RP8DgxMLsOjQoSryNbmEP.png?type=wide&r=w08" width="652" alt="Exousia KASEKA's Dev Card"/></a>
 
 
 [![Twitter/X](https://skillicons.dev/icons?i=twitter)](https://twitter.com/ekeey_8) &nbsp;
@@ -10,12 +10,20 @@
 </div>
 
 - 🔭 I’m currently studing the fullstack web develpment at [Kadea Academy](https://cd.linkedin.com/company/kadeaacademy) where we were [incubated by Silikin Village](https://cd.linkedin.com/company/silikin-village) and sponsored by [Enabel DRC](https://fr.linkedin.com/company/enabel).
-- 🌱 I’m passionate about [serverless in AWS](https://aws.amazon.com/serverless/) and [Tensorflow](https://www.tensorflow.org).
+- 🌱 I’m passionate about [serverless in Azure](https://aws.amazon.com/serverless/) and [React Native](https://github.com/facebook/react-native).
+- ✍️ I write one article per week [here](#👨🏽‍💻-more-for-tutorial)
 - 🏆 I'm striving to increase my [GitHub stats rating](#🏆-my-stats) by contributing to [open source](https://opensource.com/resources/what-open-source).
 - ⚡ Fun fact: I read books, play the basketball, and love fashion!
 
 
 <div align="center">
+
+
+## 👨🏽‍💻 More for tutorial:
+
+[![Dev Community](https://skillicons.dev/icons?i=devto)](https://dev.to/duc243) &nbsp;
+[![YouTube](https://skillicons.dev/icons?i=youtube)](https://youtube.com/@devsharecommunity) &nbsp;
+[![Meduim](https://skillicons.dev/icons?i=medium)](https://medium.com/@kasekaexousia/)
 
 
 ## 💡 A Quote:
