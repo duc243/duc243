@@ -20,4 +20,35 @@
   --pages-color: linear-gradient(90deg, #fff, #ddd);
   --border: .125rem solid #00abf0;
   --box-shadow: 0 0 .6rem rgba(0, 0, 0, .2);
+  --border-rounded: 50%;
+  --border-sm: .5rem;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: #0a303f;
+}
+
+.wrapper {
+  position: relative;
+  width: 80vw;
+  height: 70vh;
+  background: red;
+}
+
+.cover {
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  background: var(--cover-color);
+  box-shadow: var(--box-shadow);
+  border-bottom-left-radius: var(--border-sm);
+  border-top-left-radius: var(--border-sm);
+  transform-origin: right;
+}
+
+.cover-right.turn{
+  transform: rotateY(180deg);
 }
