@@ -249,7 +249,7 @@ body {
   left: 1.5rem;
 }
 
-.service-box {
+.service-box, .skills-box {
   display: flex;
   flex-wrap: wrap;
   gap: 1rem;
@@ -284,4 +284,40 @@ body {
 .service-content .btn {
   width: 8rem;
   height: 2.5rem;
+}
+
+.skills-box .skills-content {
+  flex: 1 1 20rem;
+}
+
+.skills-content h3 {
+  font-size: 1.5rem;
+}
+
+.skills-content .content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .8rem;
+}
+
+.skills-content .content span {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 6rem;
+  height: 4rem;
+  border: var(--border);
+  font-weight: 600;
+  border-radius: var(--border-rounded-sm);
+  transition: var(--transition) ease;
+}
+
+.skills-content .content span:hover {
+  box-shadow: var(--box-shadow);
+}
+
+.skills-content .content span i {
+  font-size: 2rem;
+  color: var(--main-color);
 }
