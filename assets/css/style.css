@@ -163,6 +163,14 @@ body {
   transform-origin: left;
 }
 
+#turn-1{
+  z-index: 10000;
+}
+
+#turn-1.turn {
+  z-index: 0;
+}
+
 .book-page.book-right.turn {
   transform: rotateY(-180deg);
 }
