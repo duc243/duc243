@@ -14,7 +14,8 @@
   --bg-color: #081b29;
   --main-color: #00abf0;
   --text-color: #333;
-  --size-text-h1: 1.7rem;
+  --size-text-h1: 2.5rem;
+  --size-text-h3: 1.7rem;
   --second-text-color: #555;
   --white-color: #fff;
   --cover-color: linear-gradient(45deg, #00abf0, #006e9a);
@@ -25,6 +26,7 @@
   --border-rounded: 50%;
   --border-rounded-sm: .5rem;
   --padding: 2rem;
+  --transition: .5s;
 }
 body {
   display: flex;
@@ -97,5 +99,58 @@ body {
 
 .profile-page h1 {
   font-size: var(--size-text-h1);
-  line-height: 2;
+  line-height: 1;
+}
+
+.profile-page h3 {
+  font-size: var(--size-text-h3);
+  color: var(--main-color);
+}
+
+.profile-page .social-media {
+  margin: .6rem 0 .8rem;
+}
+
+.profile-page .social-media a {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 2.5rem;
+  height: 2.5rem;
+  background: transparent;
+  border: var(--border);
+  border-radius: var(--border-rounded);
+  font-size: 1.3rem;
+  color: var(--main-color);
+  margin: 0 .2rem;
+  transition: var(--transition);
+}
+
+.profile-page .social-media a:hover {
+  background: var(--main-color);
+  color: var(--white-color);
+}
+
+.profile-page p {
+  text-align: justify;
+}
+
+.btn, .profile-page .btn:nth-child(2):hover {
+  display: inline-flex;
+  width: 9.5rem;
+  height: 3rem;
+  background: var(--main-color);
+  border: var(--border);
+  border-radius: var(--border-rounded-sm);
+  justify-content: center;
+  align-items: center;
+  color: var(--white-color);
+  margin: .5rem;
+  transition: var(--transition);
+}
+
+.profile-page .btn:nth-child(2),
+.btn:hover {
+  background: transparent;
+  color: var(--main-color);
 }
