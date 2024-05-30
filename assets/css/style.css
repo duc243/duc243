@@ -414,3 +414,18 @@ body {
 .contact-box .btn {
   cursor: pointer;
 }
+
+.back-profile {
+  position: absolute;
+  bottom: 1.2rem;
+  right: 2rem;
+  width: 2rem;
+  height: 2rem;
+  background: transparent;
+  border: var(--border);
+  border-radius: var(--border-rounded-sm);
+  font-size: 1.1rem;
+  color: var(--main-color);
+  display: inline-flex;
+  align-items: center;
+}
