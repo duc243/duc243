@@ -136,21 +136,24 @@ body {
   text-align: justify;
 }
 
-.btn, .profile-page .btn:nth-child(2):hover {
+.btn {
   display: inline-flex;
   width: 9.5rem;
   height: 3rem;
-  background: var(--main-color);
   border: var(--border);
   border-radius: var(--border-rounded-sm);
   justify-content: center;
   align-items: center;
-  color: var(--white-color);
   margin: .5rem;
   transition: var(--transition);
 }
 
-.profile-page .btn:nth-child(2),
+.btn, .btn-box .btn:nth-child(2):hover {
+  color: var(--white-color);
+  background: var(--main-color);
+}
+
+.btn-box .btn:nth-child(2),
 .btn:hover {
   background: transparent;
   color: var(--main-color);
@@ -351,4 +354,35 @@ body {
 
 .portfolio-box .info-box {
   margin: 1rem 0 1.5rem;
+}
+
+.portfolio-box .info-box .info-title {
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.portfolio-box .info-box .info-title h3 {
+  font-size: 1.3rem;
+}
+
+.portfolio-box .info-box .info-title a {
+  display: flex;
+  align-items: center;
+  color: var(--main-color);
+  gap: .3rem;
+}
+
+.portfolio-box .info-box p:nth-of-type(1) {
+  font-weight: 600;
+}
+
+.portfolio-box .btn-box {
+  display: flex;
+  justify-content: center;
+}
+
+.portfolio-box .btn-box .btn {
+  margin: 0 1.5rem;
 }
