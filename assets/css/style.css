@@ -22,7 +22,7 @@
   --pages-color: linear-gradient(90deg, #fff, #ddd);
   --border: .125rem solid #00abf0;
   --border-img: .25rem solid var(--main-color);
-  --box-shadow: 0 0 .6rem rgba(0, 0, 0, .);
+  --box-shadow: 0 0 .6rem rgba(0, 0, 0, .2);
   --border-rounded: 50%;
   --border-rounded-sm: .3rem;
   --padding: 2rem;
@@ -41,7 +41,7 @@ body {
 .wrapper {
   position: relative;
   width: 80vw;
-  height: 45rem;
+  height: 50vw;
   padding: var(--padding);
 }
 
@@ -247,4 +247,41 @@ body {
 
 .nextprev-btn.back {
   left: 1.5rem;
+}
+
+.service-box {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.service-box .service-content {
+  flex: 1 1 10rem;
+  border: var(--border);
+  border-radius: var(--border-rounded-sm);
+  padding: .5rem .5rem 1rem;
+  text-align: center;
+  transition: var(--transition) ease;
+}
+
+.service-box .service-content:hover {
+  box-shadow: var(--box-shadow);
+}
+
+.service-content i {
+  font-size: 2rem;
+  color: var(--main-color);
+}
+
+.service-content h3 {
+  font-size: calc(var(--size-text-h3) - .6rem);
+}
+
+.service-content p {
+  margin: .2rem 0 .8rem;
+}
+
+.service-content .btn {
+  width: 8rem;
+  height: 2.5rem;
 }
