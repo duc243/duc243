@@ -154,3 +154,18 @@ body {
   background: transparent;
   color: var(--main-color);
 }
+
+.book-page.book-right {
+  position: absolute;
+  right: 0;
+}
+
+.book-page .page-front,
+.book-page .page-back {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: var(--pages-color);
+}
