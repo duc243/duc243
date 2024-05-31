@@ -20,6 +20,21 @@ pagesTurnBtn.forEach((element, index) => {
 });
 
 //contact me button when click
+const pages = document.querySelectorAll('.book-page.book-right');
+const contactBtn = document.querySelector('.btn.contact-me');
+
+contactBtn.addEventListener('click', () => {
+    pages.forEach((page, index) => {
+        setTimeout(() => {
+            page.classList.add('turn');
+
+            setTimeout(() => {
+                page.style.zIndex = 20 + index;
+            }, 500);
+        }, (index + 1) * 200 + 100);
+    })
+    
+})
 
 //create reverse index function
 
