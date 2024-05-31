@@ -32,9 +32,8 @@ contactBtn.addEventListener('click', () => {
                 page.style.zIndex = 20 + index;
             }, 500);
         }, (index + 1) * 200 + 100);
-    })
-    
-})
+    });
+});
 
 //create reverse index function
 let totalPages = pages.length;
@@ -48,6 +47,21 @@ function reverseIndex() {
 }
 
 //back profile button when click
+const backProfileBtn = document.querySelector('.back-profile');
+
+backProfileBtn.addEventListener('click', () => {
+    pages.forEach((page, index) => {
+        setTimeout(() => {
+            reverseIndex();
+            page.classList.remove('turn');
+
+            setTimeout(() => {
+                reverseIndex();
+                page.style.zIndex = 10 + index;
+            }, 500);
+        }, (index + 1) * 200 + 100);
+    });
+});
 
 //opening animation
 //opening animation (cover right animation)
