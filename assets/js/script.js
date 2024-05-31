@@ -64,6 +64,11 @@ backProfileBtn.addEventListener('click', () => {
 });
 
 //opening animation
+const coverRight = document.querySelector('.cover.cover-right');
+
 //opening animation (cover right animation)
+setTimeout(() => {
+    coverRight.classList.add('turn');
+}, 3000);
 //opening animation (page left or profile page animation)
 //opening animation (all page right animation)
