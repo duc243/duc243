@@ -103,12 +103,18 @@ body {
   padding: var(--padding);
 }
 
-.profile-page {
+.profile-page, .profile-page .container {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   width: 100%;
+}
+
+.profile-page .container {
+  background-color: red;
+  width: 100%;
+  height: 100ch;
 }
 
 .profile-page img {

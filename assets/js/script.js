@@ -38,6 +38,7 @@ contactBtn.addEventListener('click', () => {
 //create reverse index function
 let totalPages = pages.length;
 let pageNumber = 0;
+console.log(totalPages);
 
 function reverseIndex() {
     pageNumber--;
@@ -50,14 +51,14 @@ function reverseIndex() {
 const backProfileBtn = document.querySelector('.back-profile');
 
 backProfileBtn.addEventListener('click', () => {
-    pages.forEach((page, index) => {
+    pages.forEach((_, index) => {
         setTimeout(() => {
             reverseIndex();
-            page.classList.remove('turn');
+            pages[pageNumber].classList.remove('turn');
 
             setTimeout(() => {
                 reverseIndex();
-                page.style.zIndex = 10 + index;
+                pages[pageNumber].style.zIndex = 10 + index;
             }, 500);
         }, (index + 1) * 200 + 100);
     });
@@ -69,6 +70,22 @@ const coverRight = document.querySelector('.cover.cover-right');
 //opening animation (cover right animation)
 setTimeout(() => {
     coverRight.classList.add('turn');
-}, 3000);
+}, 2100);
+
 //opening animation (page left or profile page animation)
+pages.forEach((_, index) => {
+    setTimeout(() => {
+        reverseIndex();
+        pages[pageNumber].classList.remove('turn');
+
+        setTimeout(() => {
+            reverseIndex();
+            pages[pageNumber].style.zIndex = 10 + index;
+        }, 500);
+    }, (index + 1) * 200 + 2100);
+});
+
 //opening animation (all page right animation)
+setTimeout(() => {
+    coverRight.style.zIndex = -1;
+}, 2600);
