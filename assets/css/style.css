@@ -428,4 +428,27 @@ body {
   color: var(--main-color);
   display: inline-flex;
   align-items: center;
+  justify-content: center;
+}
+
+.back-profile:hover {
+  background: var(--main-color);
+  color: var(--white-color);
+}
+
+.back-profile p {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%) scale(.5);
+  font-size: 1rem;
+  opacity: 0;
+  color: var(--main-color);
+  transition: var(--transition);
+}
+
+.back-profile:hover p {
+  opacity: 1;
+  transform: translateX(-50%) scale(1);
+  top: -2rem;
 }
