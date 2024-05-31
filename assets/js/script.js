@@ -37,6 +37,15 @@ contactBtn.addEventListener('click', () => {
 })
 
 //create reverse index function
+let totalPages = pages.length;
+let pageNumber = 0;
+
+function reverseIndex() {
+    pageNumber--;
+    if (pageNumber < 0) {
+        pageNumber = totalPages - 1;
+    }
+}
 
 //back profile button when click
 
