@@ -111,12 +111,6 @@ body {
   width: 100%;
 }
 
-.profile-page .container {
-  background-color: red;
-  width: 100%;
-  height: 100ch;
-}
-
 .profile-page img {
   max-width: 180px;
   border-radius: var(--border-rounded);
@@ -216,6 +210,14 @@ body {
   transform: rotateY(180deg) translateZ(1px);
 }
 
+.container-pages {
+  background-color: red;
+  width: 100%;
+  height: 85%;
+  display: grid;
+  align-items: flex-end;
+}
+
 .title{
   text-align: center;
   margin-bottom: var(--section-padding);
@@ -224,7 +226,7 @@ body {
 .workeduc-box {
   display: flex;
   flex-direction: column;
-  gap: var(--padding);
+  gap: .8rem;
   border-left: var(--border);
 }
 
@@ -477,4 +479,14 @@ body {
   opacity: 1;
   transform: translateX(-50%) scale(1);
   top: -2rem;
+}
+
+@media screen and (max-width: 1210px) {
+  .workeduc-content .year,
+  p {
+    font-size: .9rem;
+  }
+  h3 {
+    font-size: 1rem;
+  }
 }
